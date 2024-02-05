@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.group{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: 1px solid;
+}
+
+.group input{
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+
+
+.error{
+    border: none;
+    outline: none;
+    color: red;
+    font-size: 1.2rem;
+}
+
+#button{
+    width: 100%;
+    padding: 10px;
+    border: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.button{
+    outline: none;
+}
+
